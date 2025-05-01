@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+if ARGV.empty?
+  puts 'Provide input.txt file'
+  exit 1
+end

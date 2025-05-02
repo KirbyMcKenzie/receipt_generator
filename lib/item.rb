@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# Represents an item on the receipt with tax and price calculations.
 class Item
   attr_reader :name, :quantity, :price, :imported
 
